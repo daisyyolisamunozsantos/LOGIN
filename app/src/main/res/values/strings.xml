@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="about_us_acercade">Acerca de </string>
+    <string name="about_us_descripcion"> Esta aplicacion es para reservas de habitaciones del Aromas Hostal</string>
+    <string name="about_us_autor">Autores:</string>
+    <string name="about_us_integrante1">Muñoz Santos Daisy</string>
+    <string name="about_us_integrante2">Menese Taipe Epifania</string>
+    <string name="about_us_integrante3">Figueroa Mosca Nory</string>
 </resources>
