@@ -15,7 +15,10 @@
             android:text="Usuario"></TextView>
         <EditText android:id="@+id/txtUser"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></EditText>
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress">
+
+        </EditText>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

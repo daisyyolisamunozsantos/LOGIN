@@ -13,7 +13,7 @@ public class Users {
                                           String Password){
         for (Users i:getUsers()){
             if (i.Username.equals(User)){
-                if (i.password.equals(Password)){
+                if (i.password.equals(Password) && i.password.length() >= 3 && i.password.length()<= 50  ){
                     return true;
                 }
 
@@ -33,6 +33,11 @@ public class Users {
         t.Username = "yoli";
         t.password = "123";
         list.add(t);
+
+        Users a = new Users();
+        a.Username = "yo";
+        a.password = "1";
+        list.add(a);
 
         return list;
     }
